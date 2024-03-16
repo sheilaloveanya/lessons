@@ -1,0 +1,120 @@
+@import url("reset.css");
+
+body{
+	background-color: silver ;
+	
+	
+}
+/*=========================================================*/
+
+
+* {
+	color: rgba(44, 41, 41, 0.563)/*!important*/;
+}
+
+div {
+	color: green;
+}
+
+h1,
+h2,
+h3 {
+	color: red;
+}
+
+mark {
+	color: plum;
+}
+
+.content {
+	color: brown;
+}
+
+.page span {
+	color: palevioletred;
+}
+
+#section-nine {
+	color: darkmagenta;
+}
+
+[href] {
+	color: yellowgreen;
+}
+
+[title] {
+	color: blue;
+}
+
+[href="https://facebook.com"]{
+	color: rgba(231, 50, 140, 0.761);
+}
+
+[href="https://youtube.com"] {
+	color: rgb(222, 14, 14);
+}
+
+[href="https://instagram.com"] {
+	color: rgba(78, 86, 194, 0.843);
+}
+
+[title~="сторінки"] {
+	color: yellow;
+}
+
+[title|="Перегляд"] {
+	color: hotpink;
+}
+
+[class^="list"] {
+	color: darkred;
+}
+
+[class$="list"] {
+	color: bisque;
+}
+
+[class*="__item"]{
+	color:  fuchsia;
+}
+
+div.text {
+	color: blue;
+}
+
+.page-content.box {
+	color: darkorange;
+}
+
+.page-content.box.content-page {
+	color: blueviolet;
+}
+
+.text-seven,
+.text-nine {
+	color: rgb(212, 226, 15);
+}
+
+.text .block {
+	color: brown;
+}
+
+.text-four * {
+	color: violet;
+}
+
+.page > div {
+	color: brown;
+}
+
+.text > .text-one {
+	color: slateblue;
+}
+
+.text ~ div{
+	color: antiquewhite;
+}
+
+.text + p {
+	color: darkslateblue;
+}
