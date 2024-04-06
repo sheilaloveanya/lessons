@@ -1,0 +1,76 @@
+@import url("fonts.css");
+
+@import url("reset.css"); 
+
+
+/* 
+============================================================= */
+
+body {
+	font-family: 'Proxima Nova', sans-serif;
+	background-color:  #F8F8F8;
+	color: #2B2929;
+}
+.menu__link--second-list {
+	font-weight: 600;
+	font-size: 19px;
+}
+
+
+.second-header__call  span {
+	font-weight: 300;
+}
+
+.second-header__call, span {
+	font-weight: 600;
+	font-size: 20px;
+}
+.second-header__search {
+	color: #B1B1B1;
+	
+}
+.title {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+h2 {
+font-size: 20px;
+font-weight: 600;
+}
+
+.card-categoris__number {
+color: #B1B1B1;
+}
+
+.offten-sold__link {
+	color: #FFBC57 ;
+}
+
+.card-offten-sold__size {
+	font-size: 13px;
+font-weight: 300;
+color: #535353;
+}
+h4 {
+font-size: 19px;
+font-weight: 600;
+}
+.card-offten-sold__product-status {
+	font-size: 13px;
+	
+	font-weight: 300;
+}
+.card-offten-sold__full-price {
+color: #E03D3D;
+font-size: 15px;
+text-decoration: line-through;
+}
+.card-offten-sold__sale-price {
+font-size: 20px;
+
+font-weight: 600;
+}
+.footer__link {
+	color: #E03D3D;
+}
