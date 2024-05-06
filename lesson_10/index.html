@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 10</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__holder">
+					<h1 class="header__title">CSS POSITION</h1>
+					<div class="header__catalog catalog-list">
+						<div class="catalog-list__items">
+							<div class="catalog-list__button button">
+								<a href="#catalog" class="button__link">
+									<span>Каталог</span>
+								</a>
+							</div>
+							<div id="catalog" class="catalog-list__menu menu">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/lizhka.svg"
+												alt="Сіриі диван з бежевими подушками">
+											<span>Ліжка</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Ліжко Спарта / Sparta з
+														підйомним механізмом
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Ліжко Аргон з підйомним
+														механізмом</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Ліжко Престиж з підйомним
+														механізмом
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Диван Токіо-2
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Матрац Largo SLIM / Ларго Слім
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Матрац ARGENTUM AMALTEA /
+														Аргентум Амалті
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Диван Браво
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Ліжко МК-5</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/matrac.svg" alt="Матраци">
+											<span>Матраци</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Односпальні матраци
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Двоспальні матраци
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Пружинний блок Bonnel
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Пружинний блок Pocket Spring
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Безпружинні матраци
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Матраци з ефектом Зима-Літо
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Футони
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link"> Дитячі матраци
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link"> Матраци Економ</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/divano.svg" alt="М’які меблі">
+											<span>М’які меблі</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/shafa.svg" alt="Шафи">
+											<span>Шафи</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/komod.svg" alt="Комоди">
+											<span>Комоди</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/tumba.svg" alt="Тумби">
+											<span>Тумби</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/stol.svg" alt="Столи">
+											<span>Столи</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/stilci.svg" alt="Стільці">
+											<span>Стільці</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/mstiny.svg" alt="Меблеві стіни">
+											<span>Меблеві стіни</span>
+										</a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<img src="img/icons/kuhni.svg" alt="Кухні">
+											<span>Кухні</span></a>
+										<div class="menu__sub sub-menu">
+											<ul class="sub-menu__list">
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+												<li class="sub-menu__item">
+													<a href="#" class="sub-menu__link">Lorem, ipsum dolor sit amet.
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				</header>
+				<main class="page">
+					<div class="page__holder">
+						<div class="page__categories categories">
+							<ul class="categories__list">
+								<li class="categories__item card">
+									<a href="#" class="card__link">
+										<div class="card__info">
+											<h2 class="card__title">Ліжка</h2>
+											<span class="card__number">54</span>
+										</div>
+										<div class="card__picture">
+											<img class="card__image" src="img/img/01.webp"
+												alt="сіриі диван з сіро-бежевими подушками">
+										</div>
+									</a>
+								</li>
+
+								<li class="categories__item card">
+									<a href="#" class="card__link">
+										<div class="card__info">
+											<h2 class="card__title">Ліжка</h2>
+											<span class="card__number">30</span>
+										</div>
+										<div class="card__picture">
+											<img class="card__image" src="img/img/02.webp"
+												alt="білиі матрац">
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</main>
+				<footer class="footer">
+					<div class="footer__title">Я ФУТЕР</div>
+				</footer>
+			</div>
+		</body>
+	</html>
